@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Branding Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/afe21fc718.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- -------home------- -->
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web developer & Opinion trader</p>
+                <h1>Hi,I'm <span>Bhuvaneswar</span><br> from India</h1>
+            </div>
+        </div>
+        
+    </div>
+
+<!----------about--------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/profilepic3.png" alt="">
+                </div>
+                <div class="about-col-2">
+                   <h1 class="sub-title aboutsection" >About me</h1>
+                   <p>
+                    Hello! I am Bhuvaneswar. I have passion for web development, 
+                    stock trading, and programming. Skilled in HTML, CSS, JavaScript, 
+                    and various frameworks, I create user-friendly websites. Alongside, 
+                    my analytical mindset and market knowledge drive my success in stock trading. 
+                    I enjoy making informed investment decisions and staying updated 
+                    on market trends. Proficient in Java, and C++, I embrace 
+                    complex problem-solving using coding expertise. Currently pursuing my Bachelor of Technology
+                     in Electronics and Communication engineerig at Indian Institute of Technology(Indian School of Mines) Dhanbad, 
+                     I'm committed to continuous growth and skill enhancement. 
+             
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                         <li><span>Web Developer</span><br>Web development using HTML,CSS,JavaScript</li>
+                         <li><span>Opinion trader</span><br>Opinion trading in bitcoin</li>
+                         <li><span>Softwares</span><br>Circuit maker,Matlab,Simulink,github,Simulink</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                        
+                         <li><span>2023</span><br>Volunteer in Srijan - Cultural fest of IIT(ISM),Dhanbad</li>
+                         <li><span>2022</span><br>Member of Kartavya</li>
+                         <li><span>2022-present</span><br>Member of Electronics and IoT Club</li>                                             
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                         <li><span>December 2021-present</span><br>Bachelor of Technology in ECE from IIT(ISM),Dhanbad - 8.13</li>
+                         <li><span>June 2020-July2021</span><br>12th from Sasi Juniour College,Visakhapatnam - 96.4%</li>
+                         <li><span>June 2018-July2019</span><br> 10th from Jawahar Navodaya Vidyalaya,Visakhapatnam - 94.2%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ------services------ -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Developer</h2>
+                    <p>As a web developer, I specialize in crafting innovative and user-friendly websites that leave a lasting impact. With expertise in HTML, CSS, JavaScript, and various frameworks, I create dynamic and responsive interfaces. Let's collaborate to bring your vision to life and ensure a seamless online presence.</p>
+                     <a href="https://github.com/peddintibhuvaneswar">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-arrow-trend-up"></i>
+                    <h2>Opinion Trader</h2>
+                    <p>I excel in stock and opinion trading. With a keen eye on market trends and a strategic approach, I make informed investment decisions. My analytical insights help clients navigate financial opportunities confidently. Let's work together to achieve your investment goals.</p>
+                     <a href="https://probo.in?type=user&id=3166222">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-fancy"></i>
+                    <h2>Web Designer(UI/UX - canva)</h2>
+                    <p>As a skilled web designer, I excel in creating captivating user interfaces using Canva and other cutting-edge tools. With a keen eye for aesthetics and a focus on user experience, I deliver visually stunning designs that leave a lasting impact.</p>
+                     <a href="https://peddintibhuvaneswar.github.io/Personal_Branding_Website2/">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!----------portfolio-------- -->
+
+    <div id="portfolio">
+         <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/weatherwebapp.png" alt="">
+                    <div class="layer">
+                        <h3>Weather Web App</h3>
+                        <p>The web app get your current location and inform you the current weather conditions</p>
+                         <a href="https://peddintibhuvaneswar.github.io/Weather_App/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Drumstick.png" alt="">
+                    <div class="layer">
+                        <h3>Drum Kit Web App</h3>
+                        <p>This website let you play different notes and try various combinations of drums</p>
+                         <a href="https://peddintibhuvaneswar.github.io/Musical_drums/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Mypetwebsite.png" alt="">
+                    <div class="layer">
+                        <h3>My Pet Website</h3>
+                        <p>My Pet Website helps you find your best companion in the form of</p>
+                         <a href="https://peddintibhuvaneswar.github.io/Mypet/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/peddintibhuvaneswar" class="btn">See more</a>
+         </div>
+    </div>
+
+    <!-- ---------contact----------- -->
+
+    <div id="contact">
+           <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> peddintibhuvaneswar@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91-9666527088</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/peddinti-bhuvaneswara-rao/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/peddintibhuvaneswar"><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="images/resume.pdf" download class="btn btn2">Download resume</a>
+                </div>
+                <div class="contact-right">
+                    <form action="" name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" id="" placeholder="Your message" cols="30" rows="6"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                  <span id="msg"></span>
+                </div>
+            </div>
+           </div>
+           <div class="copyright">
+            <p>Copyright @ peddintibhuvaneswar</p>
+           </div>
+    </div>
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks)
+            {
+            tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu1=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu1.style.right="0";
+        }
+        function closemenu(){
+            sidemenu1.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby2sN8vNdHMkhk7XzQBkYuRY5NTsqrBlLaLXB4uJPzP6eSSAFMTP5gitBGeiK2gN4qw-w/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        //    ----to display hello for successful submission---
+        const msg=document.getElementById("msg");
+
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+
+          //    ----to display hello for successful submission---
+            .then(response => {
+                msg.innerHTML="Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },1000)
+                form.reset()
+            })
+
+
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
