@@ -9,10 +9,10 @@ Welcome to my personal portfolio website! This site is designed to showcase my s
 * Responsive Design: Optimized for viewing on both desktop and mobile devices.
 
 # Technologies Used #
-HTML
-CSS
-JavaScrip
-Bootstrap 
+* HTML
+* CSS
+* JavaScrip
+* Bootstrap 
 
 # Live Demo #
 Check out the live version of the website here- https://peddintibhuvaneswar.github.io/Personal_Branding_Website2/
